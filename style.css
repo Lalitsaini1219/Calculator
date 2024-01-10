@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Croissant+One&family=Gabarito&family=Lemon&family=Martian+Mono:wght@200;300&family=Montserrat:wght@800&family=Mooli&family=Skranji:wght@400;700&family=Source+Code+Pro&family=Source+Serif+4:ital,opsz,wght@1,8..60,200&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 4%;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 4)
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+input ::placeholder{
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #f9f6f6;
+    font-size: 25px;
+    box-shadow: -8px -8px 15px rgba(225,225,225,0.1);
+    cursor:pointer;
+}
+.equalbtn{
+    background-color: #4ccc21;
+}
+
+.operator{
+    color: #ec6e2a;
+}
